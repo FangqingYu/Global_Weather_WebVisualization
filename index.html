@@ -14,13 +14,19 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 
 
-    
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js" integrity="sha384-vhJnz1OVIdLktyixHY4Uk3OHEwdQqPppqYR8+5mjsauETgLOcEynD9oPHhhz18Nw" crossorigin="anonymous"></script>
+    <!--
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js" integrity="sha384-vhJnz1OVIdLktyixHY4Uk3OHEwdQqPppqYR8+5mjsauETgLOcEynD9oPHhhz18Nw" crossorigin="anonymous"></script> -->
 
      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+     <!--
+     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script> -->
      <!-- Include all compiled plugins (below), or include individual files as needed -->
-     <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js" integrity="sha384-vhJnz1OVIdLktyixHY4Uk3OHEwdQqPppqYR8+5mjsauETgLOcEynD9oPHhhz18Nw" crossorigin="anonymous"></script>
+     <!--
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js" integrity="sha384-vhJnz1OVIdLktyixHY4Uk3OHEwdQqPppqYR8+5mjsauETgLOcEynD9oPHhhz18Nw" crossorigin="anonymous"></script> -->
+
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 
 </head>
 
@@ -124,11 +130,12 @@
     </section>      
        
     <!--next page-->
-        <div class="row">
+        <!--<div class="row">
             <div class="col-md-12">
-                
+                -->
+    <section id="comparison">           
                 <!--Comparison-->
-                <div class="container" id="comparison">
+                <div class="container">
                     <div class="page-header">
                         <h1 class="title-style">Comparison: Latitude vs X</h1>
                     </div>
@@ -138,26 +145,26 @@
                 
                     <div class="container">
                         <div class="row">
-                            <div class="col">
+                            <div class="col-md-6">
                                 <p><h3 class="subtitle-style">vs. Max Temperature</h3></p>
                                 <a href="#max_temp">
                                     <img src="charts/Lat_Temp.png" class="img-fluid" alt="lat_temp_mini" height="450", width="550", style="float:left;">
                                 </a>
                             </div>
-                            <div class="col">
+                            <div class="col-md-6">
                                 <p><h3 class="subtitle-style">vs. Humidity</h3></p>
                                 <a href="#humidity">
                                     <img src="charts/Lat_Humidity.png" class="img-fluid" alt="lat_temp_mini" height="450", width="550", style="float:left;">
                                 </a>
                             </div>
-                            <div class="w-100"></div>
-                            <div class="col">
+                        <div class="row">
+                            <div class="col-md-6">
                                 <p><h3 class="subtitle-style">vs. Cloudiness</h3></p>
                                 <a href="#cloudiness">
                                     <img src="charts/Lat_Cloud.png" class="img-fluid" alt="lat_temp_mini" height="450", width="550", style="float:left;">
                                 </a>
                             </div>
-                            <div class="col">
+                            <div class="col-md-6">
                                 <p><h3 class="subtitle-style">vs. Wind Speed</h3></p>
                                 <a href="#wind_speed">
                                     <img src="charts/Lat_Wind.png" class="img-fluid" alt="lat_temp_mini" height="450", width="550", style="float:left;">
@@ -165,9 +172,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
+                </div>  
+        </section>
         
         <div class="row">
             <div class="col-md-8">

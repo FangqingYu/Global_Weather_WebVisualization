@@ -21,9 +21,9 @@ To look at the report, please visit: https://fangqingyu.github.io/Global_Weather
 
 ## Files
 
-* WeatherPy.ipynb - jupyter notebook file that contains the script that generates the sample and visualization for this analysis
-* index.html & style.css -  the framework and styling for the webpage where the report was posted
-* charts - folder that contains all the visualizations included in the report
+* WeatherPy.ipynb:  jupyter notebook file that contains the script that generates the sample and visualization for this analysis
+* index.html & style.css:   the framework and styling for the webpage where the report was posted
+* charts:  folder that contains all the visualizations included in the report
 * output_data: contains csv file and html format of raw sample data
 
 
